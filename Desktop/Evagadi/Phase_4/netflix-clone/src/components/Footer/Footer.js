@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+
 // MUI Icons
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -8,6 +9,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 const Footer = () => {
   return (
     <div className="footer">
+      
       {/* Social Icons */}
       <div className="footer-socials">
         <FacebookIcon className="social-icon" />
