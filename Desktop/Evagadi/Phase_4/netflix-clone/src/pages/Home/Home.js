@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import Banner from '../../components/Banner/banner.js'
+import RowList from '../../components/Rows/Rowlist/RowList.js'
 
 
 const Home = () => {
@@ -9,7 +10,9 @@ const Home = () => {
     <>
         <Header/>
         <Banner/>
+        <RowList/>
         <Footer/>
+        
 
 
     </>
