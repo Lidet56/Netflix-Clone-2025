@@ -1,4 +1,4 @@
-.footer {
+footer {
   background-color: #000;
   color: #757575;
   padding: 60px 12%;
@@ -8,23 +8,28 @@
 .footer-contact {
   margin-bottom: 30px;
   font-size: 16px;
+  color: #fff;
+  
 }
 /* Grid layout like Netflix */
 .footer-links {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
+  color: #fff;
 }
 .footer-links ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #fff;
 }
 .footer-links ul li {
   margin-bottom: 14px;
   font-size: 14px;
   cursor: pointer;
   transition: 0.2s ease;
+  color: #fff;
 }
 .footer-links ul li:hover {
   text-decoration: underline;
@@ -34,7 +39,9 @@
 .footer-country {
   margin-top: 40px;
   font-size: 14px;
+  color: #fff;
 }
+
 /* Tablet View */
 @media (max-width: 900px) {
   .footer {
